@@ -8,6 +8,7 @@ set(CMAKE_C_EXTENSIONS OFF)
 
 add_executable(simulate-telemetry
         src/main.c
+        include/sensor.h
 )
 
 target_compile_options(simulate-telemetry PRIVATE
