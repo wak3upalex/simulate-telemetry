@@ -53,3 +53,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# CLion / JetBrains
+.idea/
+
+# CMake build folders
+cmake-build-*/
+build/
+
+# macOS
+.DS_Store
